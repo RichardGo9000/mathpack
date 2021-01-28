@@ -1,0 +1,45 @@
+{
+  "inputs": {
+    "css/main.css": {
+      "bytes": 86,
+      "imports": []
+    },
+    "_snowpack/pkg/localforage.js": {
+      "bytes": 93154,
+      "imports": []
+    },
+    "js/app.js": {
+      "bytes": 364,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/localforage.js",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/css/main.css": {
+      "imports": [],
+      "inputs": {
+        "css/main.css": {
+          "bytesInOutput": 74
+        }
+      },
+      "bytes": 75
+    },
+    "../~~bundle~~/js/app.js": {
+      "imports": [],
+      "exports": [],
+      "inputs": {
+        "_snowpack/pkg/localforage.js": {
+          "bytesInOutput": 29583
+        },
+        "js/app.js": {
+          "bytesInOutput": 208
+        }
+      },
+      "bytes": 29954
+    }
+  }
+}
