@@ -11,6 +11,7 @@ const load = async(key) => localforage.getItem(key);
   console.log('done')
 })()
 
+console.log("meow");
 //iife 2
 (() => {
   console.log("I am cute like Hell...o Kitty.");
