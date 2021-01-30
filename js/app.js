@@ -13,6 +13,6 @@ const load = async(key) => localforage.getItem(key);
 
 console.log("meow");
 //iife 2
-(() => {
+(function () {
   console.log("I am cute like Hell...o Kitty.");
 })()
