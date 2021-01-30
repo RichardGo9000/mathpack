@@ -7,8 +7,8 @@ const load = async(key) => localforage.getItem(key);
 (async()=> {
   await save('greeting', 'Hello Rajah');
   const value = await load('greeting');
-  console.log("I am cute like Hell")
   document.getElementById('target').textContent = value;
+  console.log("async iife");
   console.log('done')
 })()
 
