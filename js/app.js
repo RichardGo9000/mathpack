@@ -1,6 +1,8 @@
 import localforage from 'localforage';
 import Swal from 'sweetalert2';
 
+console.log('begin script');
+
 const save = async(key, value) => localforage.setItem(key, value);
 const load = async(key) => localforage.getItem(key);
 //iife 1 (Immediately Invoked Function Expression)
