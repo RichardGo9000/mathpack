@@ -10,8 +10,8 @@ const load = async(key) => localforage.getItem(key);
   await save('greeting', 'Hello Rajah');
   const value = await load('greeting');
   document.getElementById('target').textContent = value;
-  console.log("async iife");
-  console.log('dONE')
+  // console.log("async iife");
+  console.log('Async iife complete');
 })()
 
 console.log("meow");
