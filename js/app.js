@@ -9,7 +9,7 @@ const load = async(key) => localforage.getItem(key);
   const value = await load('greeting');
   document.getElementById('target').textContent = value;
   console.log("async iife");
-  console.log('done')
+  console.log('dONE')
 })()
 
 console.log("meow");
