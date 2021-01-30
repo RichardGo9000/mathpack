@@ -1,5 +1,5 @@
 import localforage from 'localforage';
-import Swal from 'sweetalert2';
+// import Swal from 'sweetalert2';
 
 console.log('begin script');
 
@@ -14,8 +14,8 @@ const load = async(key) => localforage.getItem(key);
   console.log('Async iife complete');
 })()
 
-console.log("meow");
-//iife 2
-(function () {
-  console.log("I am cute like Hell...o Kitty.");
-})()
+// console.log("meow");
+// //iife 2
+// (function () {
+//   console.log("I am cute like Hell...o Kitty.");
+// })()
