@@ -14,7 +14,8 @@ const load = async(key) => localforage.getItem(key);
   console.log('Async iife complete');
 })()
 
-;(() => {
+// ;(() => {
+(() => {
   console.log("I am cute like Hell...o Kitty.");
   // Swal.fire("Sweetest shit you've ever known");
   Swal.fire({
